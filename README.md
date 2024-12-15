@@ -10,17 +10,26 @@ Group A4: Ilze Polekauskaite, Liene Gutmane, Roza Rostam Nejad
 Dataset available on Kaggle under the MIT License, Kevin Arvai, 2019. 
 https://www.kaggle.com/datasets/kevinarvai/clinvar-conflicting/data 
 
+Project A4: KAGGLE-CLINVAR
+Predicting whether a genetic variant will have conflicting clinical classifications
+We are using the ClinVar dataset for this analysis. Citation of the dataset : Kevin Arvai, 2019. Dataset available on Kaggle under the MIT License. https://www.kaggle.com/datasets/kevinarvai/clinvar-conflicting/data
 
-# Project Description
+The goal of this project is to predict if a gene variant will have a "conflicting" or "non-conflicting" classification using machine learning. It is problematic when variants have conflicting classifications, as this may hinder treatment, when the specific genetic cause, therefore, a target, cannot be established. Therefore, we aim to predict whether a given variant will have conflicting classifications, which could aid in identifying the overarching reasons for this outcome.
 
-This project is focused on classifying variants from the ClinVar dataset using machine learning models. The dataset contains information on gene variants, and our objective is to predict if a given variant will be classified as "conflicting" or "non-conflicting". We utilize various models like Logistic Regression, Random Forest, Gradient Boosting, Decision Tree, SVC, and K-Nearest Neighbors (KNN) to achieve this goal.
+Contents
+1. Data loading and Data Overview
+In this section, we load the ClinVar Conflicting dataset and provide a quick summary of its structure.
 
-Features
+2. Data Cleaning
+In this section, we drop the unusable data. We drop all of the collumns with more than 70 percent of missing data.
 
-Data Preprocessing: Handling missing values, encoding categorical variables, and balancing class distribution using SMOTE.
-EDA: Summary statistics, visualization of null values, and exploration of gene-symbol relationships.
-Feature Engineering: Encoding gene symbols and filtering genes by their frequency.
-Classification Models: Logistic Regression, Random Forest, Gradient Boosting, Decision Trees, SVC, and K-Nearest Neighbors.
+3. Data Exploration
+In this section, we explored the data set by visualizing different frequencies and proportion between different data: Number of Variants for each Class, Frequency of SIFT for each Class, Frequency of PolyPhen for each Class, Frequency of Symbols (1000+ Occurences), Proportion of Symbols for Classes, NUmber of Class 0 and 1 per Chromosome, Top 10 Most Represented Diseases by Class.
 
+4. Machine Learning
+In this section, we balanced the two classes, performed Logistic Regression, Random Forest, SVC, Gradient Boosting, Decision Tree, and KNN modelling, and evlauated them with AUC Scores.
 
-This file will be updated.
+5. Frequent Pattern Mining
+In this section, we visualized the Support vs Confidence of Association Rules for Class and Symbol (of a gene), and the Classifications of the top 50 genes.
+
+To replicate the same analysis, one can load the clinvar_conflicting.csv file, and copy the code in the same order as the code is.
