@@ -16,7 +16,7 @@ We are using the ClinVar dataset for this analysis. Citation of the dataset : Ke
 
 The goal of this project is to predict if a gene variant will have a "conflicting" or "non-conflicting" classification using machine learning. It is problematic when variants have conflicting classifications, as this may hinder treatment, when the specific genetic cause, therefore, a target, cannot be established. Therefore, we aim to predict whether a given variant will have conflicting classifications, which could aid in identifying the overarching reasons for this outcome.
 
-Contents
+Contents (in order)
 1. Data loading and Data Overview
 In this section, we load the ClinVar Conflicting dataset and provide a quick summary of its structure.
 
