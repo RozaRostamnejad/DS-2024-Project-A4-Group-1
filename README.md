@@ -32,4 +32,5 @@ In this section, we balanced the two classes, performed Logistic Regression, Ran
 ## 5. Frequent Pattern Mining
 In this section, we visualized the Support vs Confidence of Association Rules for Class and Symbol (of a gene), and the Classifications of the top 50 genes.
 
+# Replication of Analysis
 To replicate the same analysis, one can load the clinvar_conflicting.csv file, and copy the code in the same order as the code is.
