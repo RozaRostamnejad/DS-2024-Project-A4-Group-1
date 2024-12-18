@@ -1,6 +1,6 @@
 PROJECT OPTIMIZATIONS AND FUTURE DIRECTIONS
 
-This document outlines key optimization opportunities and future directions identified during and after the development of this project. These reflections are informed by feedback from experienced peers, ongoing self-assessment, and critical analysis of our project workflow.
+This document outlines key optimization opportunities and future directions identified during and after the development of this project. These reflections are informed by feedback from our more experienced peers during the poster presentation, ongoing self-assessment, and critical analysis of our project workflow! 
 
 ---
 
