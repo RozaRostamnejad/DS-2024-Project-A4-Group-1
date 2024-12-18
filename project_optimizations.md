@@ -27,4 +27,4 @@ This document outlines key optimization opportunities and future directions iden
 
 *ACKNOWLEDGEMENTS*
 
-These reflections were shaped by insights gained from neighboring poster presenters with more experience in data science. Their constructive feedback provided valuable perspectives, reinforcing the potential for improvement in our project approach.
+These reflections were shaped by insights gained from fellow poster presenters with more experience in data science. Their constructive feedback provided valuable perspectives, reinforcing the potential for improvement in our project approach.
